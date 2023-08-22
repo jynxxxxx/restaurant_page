@@ -11,7 +11,7 @@ export function ContactPage() {
     contacts.appendChild(regContact);
     
     let regPhoto = document.createElement('img');
-    regPhoto.src = "../images/regular.png";
+    regPhoto.src = "./images/regular.png";
     regPhoto.alt = "selfie of a girl";
     
     let regContactName = document.createElement('div');
@@ -40,7 +40,7 @@ export function ContactPage() {
     contacts.appendChild(foodieContact);
 
     let foodiePhoto = document.createElement('img');
-    foodiePhoto.src = "../images/foodie.png";
+    foodiePhoto.src = "./images/foodie.png";
     foodiePhoto.alt = "girl biting into a bagel and smiling";
 
     let foodieContactName = document.createElement('div');
@@ -69,7 +69,7 @@ export function ContactPage() {
     contacts.appendChild(climberContact);
 
     let climberPhoto = document.createElement('img');
-    climberPhoto.src = "../images/climber.png";
+    climberPhoto.src = "./images/climber.png";
     climberPhoto.alt = "girl hanging from a wall and smiling";
 
     let climberContactName = document.createElement('div');
@@ -97,7 +97,7 @@ export function ContactPage() {
     contacts.appendChild(surferContact);
 
     let surferPhoto = document.createElement('img');
-    surferPhoto.src = "../images/surfer.png";
+    surferPhoto.src = "./images/surfer.png";
     surferPhoto.alt = "girl with a surfboard smiling and doing shaka";
 
     let surferContactName = document.createElement('div');

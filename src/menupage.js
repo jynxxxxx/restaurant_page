@@ -12,7 +12,7 @@ export function MenuPage() {
     
     let acaiPhoto = document.createElement('img');
     acaiPhoto.classList.add('menuPhoto');
-    acaiPhoto.src = "../images/acai.jpg";
+    acaiPhoto.src = "./images/acai.jpg"
     acaiPhoto.alt = "an Acai Bowl";
     
     let acaiName = document.createElement('div');
@@ -34,7 +34,7 @@ export function MenuPage() {
 
     let tacoPhoto = document.createElement('img');
     tacoPhoto.classList.add('menuPhoto');
-    tacoPhoto.src = "../images/taco.png";
+    tacoPhoto.src = "./images/taco.png";
     tacoPhoto.alt = "paper plate with street tacos";
 
     let tacoName = document.createElement('div');
@@ -56,7 +56,7 @@ export function MenuPage() {
 
     let avocadoPhoto = document.createElement('img');
     avocadoPhoto.classList.add('menuPhoto');
-    avocadoPhoto.src = "../images/avocadotoast.png";
+    avocadoPhoto.src = "./images/avocadotoast.png";
     avocadoPhoto.alt = "Avocado Toast";
 
     let avocadoName = document.createElement('div');
@@ -78,7 +78,7 @@ export function MenuPage() {
 
     let pitaPhoto = document.createElement('img');
     pitaPhoto.classList.add('menuPhoto');
-    pitaPhoto.src = "../images/hummus.jpg";
+    pitaPhoto.src = "./images/hummus.jpg";
     pitaPhoto.alt = "Pita Bread and Hummus";
 
     let pitaName = document.createElement('div');
@@ -100,7 +100,7 @@ export function MenuPage() {
 
     let sproutsPhoto = document.createElement('img');
     sproutsPhoto.classList.add('menuPhoto');
-    sproutsPhoto.src = "../images/sprouts.jpeg";
+    sproutsPhoto.src = "./images/sprouts.jpeg";
     sproutsPhoto.alt = "Roasted Brussel Sprouts";
 
     let sproutsName = document.createElement('div');
