@@ -8,7 +8,7 @@
 }
 
 .mastercntr{
-    background-image: url('./images/beach.png');
+    background-image: url('images/beach.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center calc(-700px + 10vh);
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/cloud50.png');
+    background-image: url('images/cloud50.png');
     background-size: 40% 100%;
     background-repeat: no-repeat;
     background-position: calc(50% - 15px) -15px;
